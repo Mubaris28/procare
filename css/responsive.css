@@ -1,0 +1,881 @@
+@media only screen and (max-width: 917px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  body {
+    font-size: 1em;
+  }
+  .wrapper {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+ 
+  header .wrapper .logo-section a img {
+    height: 30px;
+  }
+  header .wrapper .nav-section .menu-icon {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+  }
+  header .wrapper .nav-section .menu-icon .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  header .wrapper .nav-section .menu-icon.open .hamburger {
+    position: relative;
+    top: -3px;
+  }
+  header .wrapper .nav-section nav {
+    /*    display: none;*/
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: -300px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #ffffff;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  header .wrapper .nav-section nav.open {
+    display: flex;
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  header .wrapper .nav-section nav ul {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+  }
+  header .wrapper .nav-section nav ul li a {
+    color: #161616
+  }
+  header.scrolled .wrapper .nav-section nav ul {
+    gap: 10px;
+  }
+  header.scrolled .wrapper .nav-section .menu-icon .hamburger span.line {
+    background-color: #161616;
+  }
+  header.scrolled .wrapper .nav-section .top-bar {
+    display: flex;
+  }
+  header .wrapper .nav-section .top-bar {
+    position: fixed;
+    right: 0;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: flex-start;
+    transition: all 0.3s ease;
+  }
+
+  header .wrapper .nav-section .top-bar a i {
+    padding-right: 20px;
+  }
+  header .wrapper .nav-section .top-bar.slide-open a {
+    transform: translateX(0px);
+  }
+  footer .wrapper .footer-right .footer-item .social .icon-box .icon {
+    height: auto;
+  }
+  .backtotop {
+    right: 20px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  .hero.video-hero .video-container iframe{
+    width: 416%;
+    height: 119%;
+  }
+    .spec-hd {
+      display: grid;
+      grid-template-columns: repeat(1,1fr) !important;
+    }
+        .medical-info .wrapper {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+                .info-2 {
+                  padding-left: 0%;
+                  padding-top: 30px;
+                }
+}
+@media only screen and (max-width: 480px) {
+  header .wrapper .nav-section nav ul {
+    justify-content: space-between;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  body {
+    font-size: 1em;
+  }
+  .wrapper {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  header .wrapper .nav-section {
+    gap: 10px;
+  }
+ 
+}
+@media (max-width:768px) {
+  .banner-text .wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+    z-index: 999;
+  }
+.cta-2 {
+  position: relative;
+  background: url(../images/cta-2-mask.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}}
+
+@media (max-width:990px) {
+
+
+  button[type="submit"] {
+      margin-left: 0% !important;
+    }
+  .cta_3-left {
+      position: relative;
+      top: 30%;
+      width: 100%;
+      padding-top: 0% !important;
+      padding-left: 15%;
+      background-size: cover;
+      height: 709px;
+      background: #FFD217;
+      border-radius: 0 50% 50% 0 / 50%;
+    }
+
+
+
+  .spec-contents {
+      padding-top: 70px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .footer-category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px;
+}
+.footer-item {
+  padding-left: 0px;
+}
+          	.sec-mission {
+          	  display: grid;
+          	  grid-template-columns: repeat(1, 1fr);
+          	  padding-bottom: 70px;
+          
+}
+.sec-service {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.service-img img {
+  height: auto !important;
+  object-fit: cover;
+  width: 100%;
+}
+.about-info {
+  text-align: center;
+  padding: 0px 0px 0px 0px !important;
+
+}
+.contact-info {
+  text-align: center;
+  padding: 0px 0px 0px 0px !important;
+
+}
+.enqry-info {
+  text-align: center;
+  padding: 0px 0px 0px 0px !important;
+}
+.career-info{
+  text-align: center;
+  padding: 0px 0px 0px 0px !important;
+
+}
+.cta_join-info{
+  text-align: center;
+    padding: 0px 0px 0px 0px !important;
+
+}
+.sec-item{
+  padding-top: 40px;
+}
+.our-mission p{
+  padding-bottom: 30px;
+}
+}
+
+
+@media (max-width:500px) {
+  section.testimonial-sec{
+      margin-top: 40px !important;
+      margin-bottom: 10%;
+    }
+  section.social {
+      margin-top: 30px ;
+    }
+  .banner-text .wrapper .left-content {
+      width: 100% !important;
+    }
+      .cta-3 {
+          padding-top: 10px !important;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          position: relative;
+        }
+  section.our-specializations {
+      margin-top: 0% !important;
+    }
+  .contact-category .item-2 {
+      width: 100% !important;
+      padding-bottom: 10px;
+    }
+.contact-hd {
+    font-family: "Rajdhani";
+    font-size: 2rem !important;
+    font-weight: 500;
+  }
+  .about-banner {
+      height: 125px !important;
+    }
+        .list-banner {
+          height: 125px !important;
+        }
+        .contact-banner {
+          height: 125px !important;
+        }
+        .service-banner{
+          height: 125px !important;
+        }
+                .career-banner {
+                  height: 125px !important;
+                }
+  .banner {
+      
+      height: 26vh;
+    }
+    .sec-item {
+        display: grid;
+        align-items: center;
+        padding: 40px 20px 0px 20px !important;
+      }
+      .footer-category {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr) !important;
+          gap:0px;
+        }
+        .blnk{
+	padding-top: 0px !important;
+}
+ .footer-item h4{
+  padding-top: 30px;
+
+ }
+
+
+
+.info-1 .content img {
+  height: 25px;
+}
+
+
+
+
+.banner-text .wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  text-align: left;
+  color: #fff;
+  z-index: 999;
+}
+.banner-text {
+  position: absolute;
+  padding-right: 32%;
+}
+.blog-contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 50px;
+
+
+}
+
+.enqry-form .form-content {
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: center;
+}
+.testimonial .slide {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+  top: 170px;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto;
+  top: 170px;
+}
+
+
+  
+}
+
+@media (max-width:750px) {
+  .spec-contents {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .about-banner {
+      height: 310px;
+    }
+        .list-banner {
+          height: 310px;
+        }
+         .service-banner {
+           height: 310px;
+         }
+                 .contact-banner {
+                   height: 310px;
+                 }
+        .career-banner {
+          height: 310px;
+        }
+  .banner {
+  
+      height: 62vh;
+    }
+  .banner-text {
+      position: absolute;
+      padding-right: 22% !important;
+    }
+        .cta-2_content {
+          width: 100%;
+          color: #fff;
+          padding-top: 0px !important;
+        }
+        .service-cta {
+          width: 100%;
+          color: #fff;
+          padding-top: 40px;
+        }
+.service-cta {
+  position: relative;
+  background: url(../images/service_cta-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 583px !important;
+  width: 100%;
+}
+        
+
+  
+}
+@media (max-width:500px) {
+  .testi-hd {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+  .slide p {
+      padding: 0px 50px;
+
+    }
+  .swiper-slide{
+    height: 77vh !important;
+  }
+   
+    .swiper {
+      position: relative;
+      width: 100%;
+      height: 77vh !important;
+    }
+  .swiper-pagination-vertical.swiper-pagination-bullets,
+    .swiper-vertical>.swiper-pagination-bullets {
+          display: flex;
+            flex-direction: row;
+            gap: 10px;
+            right: 37%;
+            left: auto;
+            top: 94%;
+            transform: translate3d(0px, -50%, 0);
+          }
+    .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #FFD217 !important;
+}
+          .swiper-pagination-bullet {
+    width: 38px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 0%;
+    background: #fff;
+    opacity: 1;
+}
+.banner-text {
+  position: absolute;
+  padding-right: 0% !important;
+}
+.left-content span {
+  font-size: 2.3rem;
+  color: #FFD217;
+  font-weight: 600;
+}
+.left-content h1 {
+  font-size: 2.3rem;
+  font-family: "Rajdhani";
+  font-weight: 400;
+}
+.emr-btn {
+  width: 269px;
+  gap: 30px;
+}
+.info-1 h3 {
+  font-size: 1.3rem;
+  font-family: "Rajdhani";
+  font-weight: 400;
+}
+.counter-section .wrapper .counter-parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  text-align: left;
+}
+header .wrapper .nav-section nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  font-family: "Barlow", sans-serif;
+  transition: all 0.3s ease;
+}
+.cta-left {
+  background: url("../images/cta-img.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px !important;
+  border-radius: 0 !important;
+}
+.counter-section .wrapper {
+  border-top: 1px solid #a19e9e;
+  width: 80%;
+  max-width: 1440px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.cta-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 340px !important;
+  top:0px !important;
+  width: 100%;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  
+  background: #FFD217;
+  border-radius: 0 !important;
+}
+.cta_contact-right .right-content h2 {
+  font-size: 2rem;
+  font-family: "Rajdhani";
+  font-weight: 500;
+  text-align: start !important;
+  margin-bottom: 10px;
+}
+.cta_career-left {
+  background: url("../images/career-cta.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px !important;
+  border-radius: 0 !important;
+}
+section.cta-join {
+  margin-top: 30px !important;
+}
+.cta_career-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px !important;
+  height: 500px !important;
+  width: 100%;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+
+  background: #FFD217;
+  border-radius: 0 !important;
+}
+      	.cta_3-right {
+      	  margin-top: 0px !important;
+          height: 300px !important;
+      	  background: url("../images/cta-3.png");
+      	  background-position: 100%;
+      	  background-size: cover;
+      	  background-repeat: no-repeat;
+          border-radius: 0 !important;
+      	  width: 100%;
+    
+    
+    
+      	}
+                section.our-blogs {
+                  margin-top: 0% !important;
+                }
+    
+      	.cta_3-left {
+      	  position: relative;
+      	  top: 40px;
+      	  display: flex;
+      	  justify-content: center;
+      	  align-items: center;
+      	  width: 100%;
+          height: 500px !important;
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+      	  background-size: cover;
+          height: 408px !important;
+      	  background: #FFD217;
+          border-radius: 0 !important;
+    
+      	}
+                  .cta_contact-left {
+                  background: url("../images/career-cta.png");
+                  background-size: cover;
+                  width: 100%;
+                  height: 300px !important;
+                  border-radius: 0 !important;
+                }
+                                section.make-enqry {
+                                  margin-top: 0;
+                                }
+        
+                  .cta_contact-right {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  top: 0px !important;
+                  width: 100%;
+                  height: 500px !important;
+                  padding-left: 30px !important;
+                  padding-right: 30px !important;
+        
+                  background: #FFD217;
+                  border-radius: 0 !important;
+                }
+
+.cta-2_content {
+  width: 100%;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.cta-2 {
+  position: relative;
+  background: url("../images/cta-2-mask.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 490px !important;
+  width: 100%;
+}
+.about-title {
+  font-family: "Rajdhani";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #46AD49;
+}
+.about-hd {
+  font-family: "Rajdhani";
+  font-size: 2rem;
+  font-weight: 500;
+}
+.sec-service_content h1 {
+  font-size: 2rem;
+  font-family: "Rajdhani";
+  font-weight: 600;
+}
+.testi-hd h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Rajdhani";
+}
+.social-hd h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Rajdhani";
+  padding-bottom: 30px;
+}
+.career-title {
+  font-family: "Rajdhani";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #46AD49;
+}
+.career-hd {
+  font-family: "Rajdhani";
+  font-size: 2rem;
+  font-weight: 500;
+}
+.cta_join-hd {
+  font-family: "Rajdhani";
+  font-size: 2rem;
+  font-weight: 400;
+}
+.contact-title {
+  font-family: "Rajdhani";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #46AD49;
+}
+.enqry-title {
+  font-family: "Rajdhani";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #46AD49;
+}
+.enqry-hd {
+  font-family: "Rajdhani";
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.service-cta_content {
+  width: 100% !important;
+  padding-top: 0px;
+}
+.service-cta {
+  position: relative;
+  background: url("../images/service_cta-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 590px !important;
+  width: 100%;
+}
+
+.blog-contents {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important;
+  gap: 50px;
+
+
+}
+.sec-service_content {
+  background: #F8F8F5;
+  padding: 50px 20px 0px 20px !important;
+}
+.service-cta h1 {
+  font-size: 2rem !important;
+  color: #161616;
+  font-family: "Rajdhani";
+  font-weight: 600;
+}
+    
+  
+}
+@media (max-width:1024px) {
+  .cta_3-left .left-content h3 {
+      padding-right: 0% !important;
+    }
+      .cta_3-left {
+          top: 0% !important;
+        }
+
+  .cta {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      position: relative;
+    }
+  .cta-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 19%;
+    height: 709px;
+    background: #FFD217;
+    border-radius: 50% 0 0 50% / 50%;
+}
+.cta-left {
+  background: url("../images/cta-img.png");
+  background-size: cover;
+  width: 100%;
+  height: 709px;
+  border-radius: 0 50% 50% 0 / 50%;
+}
+
+
+
+
+
+      .cta-career {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      position: relative;
+    }
+  
+    .cta_career-right{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 40px;
+      width: 100%;
+      padding-left: 25%;
+      padding-right: 19%;
+      height: 709px;
+      background: #FFD217;
+      border-radius: 50% 0 0 50% / 50%;
+    }
+  
+      .cta_career-left {
+      background: url("../images/career-cta.png");
+      background-size: cover;
+      width: 100%;
+      height: 709px;
+      border-radius: 0 50% 50% 0 / 50%;
+    }
+
+
+
+  	.cta-3 {
+  	  padding-top: 70px;
+  	  display: grid;
+  	  grid-template-columns: repeat(1, 1fr);
+  	  position: relative;
+  	}
+  
+  
+  	.cta_3-right {
+      margin-top: 70px;
+  	  height: 709px;
+  	  background: url("../images/cta-3.png");
+      background-position: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+  	  border-radius: 50% 0 0 50% / 50%;
+  	  width: 100%;
+  
+  
+  
+  	}
+  
+  	.cta_3-left {
+  	  position: relative;
+  	  top: 40px;
+  	  display: flex;
+  	  justify-content: center;
+  	  align-items: center;
+  	  width: 100%;
+  	  padding-left: 25%;
+  	  padding-right: 19%;
+  	  background-size: cover;
+  	  height: 709px;
+  	  background: #FFD217;
+  	  border-radius: 0 50% 50% 0 / 50%;
+
+  	}
+
+            .cta-contact {
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              position: relative;
+            }
+      
+            .cta_contact-right {
+              position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              top: 40px;
+              width: 100%;
+              padding-left: 25%;
+              padding-right: 19%;
+              height: 709px;
+              background: #FFD217;
+              border-radius: 50% 0 0 50% / 50%;
+            }
+      
+            .cta_contact-left {
+              background: url("../images/career-cta.png");
+              background-size: cover;
+              width: 100%;
+              height: 709px;
+              border-radius: 0 50% 50% 0 / 50%;
+            }
+
+
+  
+}
