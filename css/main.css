@@ -985,7 +985,7 @@ button[type="submit"]:hover {
     
       	.testimonial-sec {
       	  background-color: #fff;
-      	  margin-top: 50px;
+      	 
       	  width: 100%;
       	}
     
@@ -1666,10 +1666,11 @@ border: 2px solid #46AD49;
 section.our-blogs {
   margin-top: 10%;
 }
-section.testimonial-sec {
-  margin-top: 20%;
-  margin-bottom: 10%;
-}
+
+  section.testimonial-sec {
+      margin-top: 70px;
+      margin-bottom: 70px;}
+   
 section.social {
   margin-top: 70px;
 }
@@ -1679,4 +1680,12 @@ section.cta-join {
 
 section.make-enqry {
   margin-top: 10%;
+}
+section.testimonial-about{
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+section.testimonial-service {
+  margin-top: 20%;
+  margin-bottom: 5%;
 }
