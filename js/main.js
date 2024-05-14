@@ -102,31 +102,31 @@ $(document).ready(function () {
 });
 
 
-var swiper = new Swiper(".mySwiper", {
-  direction: "vertical",
-  loop: true, // Enable infinite loop
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
-    delay: 5000, // Change this value to set the delay between slides (in milliseconds)
-  },
-});
+// var swiper = new Swiper(".mySwiper", {
+//   direction: "vertical",
+//   loop: true, // Enable infinite loop
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   autoplay: {
+//     delay: 5000, // Change this value to set the delay between slides (in milliseconds)
+//   },
+// });
 
-var testimonialSwiper = new Swiper(".testimonial.swiper-container", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: ".testimonial .swiper-button-next",
-    prevEl: ".testimonial .swiper-button-prev",
-  },
-  pagination: {
-    el: ".testimonial .swiper-pagination",
-    clickable: true,
-  },
-});
+// var testimonialSwiper = new Swiper(".testimonial.swiper-container", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
+//   navigation: {
+//     nextEl: ".testimonial .swiper-button-next",
+//     prevEl: ".testimonial .swiper-button-prev",
+//   },
+//   pagination: {
+//     el: ".testimonial .swiper-pagination",
+//     clickable: true,
+//   },
+// });
 
 $(window).on('load', function () {
   setTimeout(function () { // allowing 3 secs to fade out loader

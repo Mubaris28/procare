@@ -313,15 +313,15 @@ background-color: #000;
 
 
 
-.banner-text .wrapper{
+.banner-text{
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
   align-items: center;
   text-align: left;
   color: #fff;
   z-index: 999;
-
+  width: 100%;
   
 }
 .left-content h1{
@@ -336,9 +336,9 @@ background-color: #000;
   color: #FFD217;
   font-weight: 600;
 }
-.left-content p{
-
-    margin-bottom: 2rem;
+.left-content p {
+  margin-bottom: 2rem;
+  width: 85%;
 }
 .left-content a{
   color: #ffff;
@@ -529,11 +529,13 @@ font-size: 3rem;
 
 
 
-  	.cta {
-  	  display: grid;
-  	  grid-template-columns: repeat(2, 1fr);
-  	  position: relative;
-  	}
+.cta .wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  position: relative;
+  max-width: 1600px;
+}
   
   
   	.cta-left {
@@ -541,25 +543,24 @@ font-size: 3rem;
   	  background-size: cover;
   	  width: 95%;
   	  height: 709px;
-  	  border-radius: 0 50% 50% 0 / 50%;
+    border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
   	}
   
-  	.cta-right {
-  	  position: relative;
-  	  display: flex;
-  	  justify-content: center;
-  	  align-items: center;
-  	  top: 30%;
-  	  width: 100%;
-  	  padding-left: 25%;
-  	  padding-right: 19%;
-  	  height: 709px;
-  	  background: #FFD217;
-  	  border-radius: 50% 0 0 50% / 50%;
-  
-  
-  
-  	}
+.cta-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 19%;
+  height: 709px;
+  background: #FFD217;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
   
   	.cta-right .right-content h3 {
   	  font-size: 2rem;
@@ -597,7 +598,7 @@ font-size: 3rem;
           margin-top: 10%;
         }
   	.our-specializations .wrapper {
-  	  width: 91%;
+  	  width: 80%;
   	}
   
   	.spec-hd h1 {
@@ -736,9 +737,9 @@ transition: .4s;
 
 }
 .cta-2_content {
-  width: 60%;
+  width: 36%;
   color: #fff;
-  padding-top: 40px;
+  padding-top: 10%;
 }
 .cta-2_content span{
     font-size: 3rem;
@@ -792,23 +793,26 @@ transition: .4s;
   border-radius: 50%;
   background: transparent;
   border: 2px solid #FFD217;
-}
+}  
 
-  	.cta-3 {
+  	.cta-3 .wrapper {
   	  padding-top: 70px;
-  	  display: grid;
-  	  grid-template-columns: repeat(2, 1fr);
-  	  position: relative;
+      width: 100%;
+        display: grid;
+        grid-template-columns: 55% 45%;
+        position: relative;
+        max-width: 1600px;
   	}
   
-  
+
   	.cta_3-right {
   	  height: 709px;
   	  background: url("../images/cta-3.png");
       background-position: 100%;
       background-size: cover;
       background-repeat: no-repeat;
-  	  border-radius: 50% 0 0 50% / 50%;
+          border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
   	  width: 100%;
   
   
@@ -823,7 +827,8 @@ transition: .4s;
     background-size: cover;
     height: 709px;
     background: #FFD217;
-    border-radius: 0 50% 50% 0 / 50%;
+        border-top-right-radius: 50%;
+          border-bottom-right-radius: 50%;
 }
 .cta_3-left .left-content span {
     font-size: 2rem;
@@ -927,11 +932,12 @@ button[type="submit"]:hover {
   
   	}
   
-  	.blog-items img {
-  	  border-radius: 23px;
+    .blog-items img {
+      border-radius: 23px;
       cursor: pointer;
-  
-  	}
+      height: 250px;
+      width: 100%;
+    }
   
   	.blog-hd h1 {
   	  text-align: center;
@@ -1304,10 +1310,12 @@ height: 600px;
 
 
 
- .cta-career {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   position: relative;
+ .cta-career .wrapper {
+  width: 100%;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    position: relative;
+    max-width: 1600px;
  }
 
 
@@ -1316,7 +1324,8 @@ height: 600px;
    background-size: cover;
    width: 95%;
    height: 709px;
-   border-radius: 0 50% 50% 0 / 50%;
+    border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
  }
 
  .cta_career-right {
@@ -1330,7 +1339,8 @@ height: 600px;
    padding-right: 19%;
    height: 709px;
    background: #FFD217;
-   border-radius: 50% 0 0 50% / 50%;
+      border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
 
 
 
@@ -1482,11 +1492,13 @@ border: 2px solid #46AD49;
 
 
 
-		 .cta-contact {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   position: relative;
- }
+        .cta-contact .wrapper {
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          position: relative;
+          max-width: 1600px;
+        }
 
 
  .cta_contact-left {
@@ -1494,7 +1506,8 @@ border: 2px solid #46AD49;
    background-size: cover;
    width: 95%;
    height: 709px;
-   border-radius: 0 50% 50% 0 / 50%;
+    border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
  }
 
  .cta_contact-right {
@@ -1508,7 +1521,8 @@ border: 2px solid #46AD49;
    padding-right: 19%;
    height: 709px;
    background: #FFD217;
-   border-radius: 50% 0 0 50% / 50%;
+border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
 
 
 
@@ -1685,7 +1699,8 @@ border: 2px solid #46AD49;
   height: 600px;
 }
 .banner-text .wrapper .left-content {
-  width: 100%;
+    width: 45%;
+    margin-top: 15%;
 }
 
 

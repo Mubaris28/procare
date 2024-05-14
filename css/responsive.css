@@ -150,6 +150,7 @@
  
 }
 @media (max-width:768px) {
+  
   section.testimonial-about {
       margin-top: 10% !important;
       margin-bottom: 5%;
@@ -177,6 +178,15 @@
 }}
 
 @media (max-width:990px) {
+  .blog-contents {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+    }
+  .banner-text .wrapper .left-content {
+      width: 85%;
+      margin-top: 15%;
+    }
 
 
   button[type="submit"] {
@@ -270,7 +280,7 @@
   .banner-text .wrapper .left-content {
       width: 100% !important;
     }
-      .cta-3 {
+        .cta-3 .wrapper{
           padding-top: 10px !important;
           display: grid;
           grid-template-columns: repeat(1, 1fr);
@@ -397,6 +407,10 @@
 }
 
 @media (max-width:768px) {
+  .banner-text .wrapper .left-content {
+      width: 100%;
+      margin-top: 15%;
+    }
   .about-banner {
       height: 310px;
     }
@@ -758,7 +772,7 @@ section.cta-join {
           top: 0% !important;
         }
 
-  .cta {
+    .cta .wrapper{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       position: relative;
@@ -774,21 +788,21 @@ section.cta-join {
     padding-right: 19%;
     height: 709px;
     background: #FFD217;
-    border-radius: 50% 0 0 50% / 50%;
+    
 }
 .cta-left {
   background: url("../images/cta-img.png");
   background-size: cover;
   width: 100%;
   height: 709px;
-  border-radius: 0 50% 50% 0 / 50%;
+
 }
 
 
 
 
 
-      .cta-career {
+      .cta-career .wrapper {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       position: relative;
@@ -805,7 +819,7 @@ section.cta-join {
       padding-right: 19%;
       height: 709px;
       background: #FFD217;
-      border-radius: 50% 0 0 50% / 50%;
+
     }
   
       .cta_career-left {
@@ -813,12 +827,12 @@ section.cta-join {
       background-size: cover;
       width: 100%;
       height: 709px;
-      border-radius: 0 50% 50% 0 / 50%;
+
     }
 
 
 
-  	.cta-3 {
+      	.cta-3 .wrapper {
   	  padding-top: 70px;
   	  display: grid;
   	  grid-template-columns: repeat(1, 1fr);
@@ -833,7 +847,7 @@ section.cta-join {
       background-position: 100%;
       background-size: cover;
       background-repeat: no-repeat;
-  	  border-radius: 50% 0 0 50% / 50%;
+
   	  width: 100%;
   
   
@@ -852,11 +866,11 @@ section.cta-join {
   	  background-size: cover;
   	  height: 709px;
   	  background: #FFD217;
-  	  border-radius: 0 50% 50% 0 / 50%;
+
 
   	}
 
-            .cta-contact {
+         .cta-contact .wrapper{
               display: grid;
               grid-template-columns: repeat(1, 1fr);
               position: relative;
@@ -873,7 +887,7 @@ section.cta-join {
               padding-right: 19%;
               height: 709px;
               background: #FFD217;
-              border-radius: 50% 0 0 50% / 50%;
+
             }
       
             .cta_contact-left {
@@ -881,7 +895,7 @@ section.cta-join {
               background-size: cover;
               width: 100%;
               height: 709px;
-              border-radius: 0 50% 50% 0 / 50%;
+
             }
 
 
